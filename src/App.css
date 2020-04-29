@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 40vh;
   pointer-events: none;
 }
 
@@ -15,24 +15,115 @@
 
 .App-header {
   background-color: whitex;
-  min-height: 100vh;
+  height: 30vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: #667EEA;
+  margin: 1rem;
 }
 
 .App-link {
   color: #61dafb;
+  position: absolute;
+  left: 0;
+  margin-left: 2rem;
+  font-size: 1rem;
 }
 
-@keyframes App-logo-spin {
+/*@keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
+}*/
+
+.key {
+  margin: auto;
+  display: flex;
+  list-style: none;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.key-text {
+  font-size: .8rem;
+  letter-spacing: 0.1rem;
+  margin-right: .5rem;
+}
+
+.purple-key {
+  width: 3vw;
+  height: 2.25vh;
+  background-color: #7F95FC;
+  margin-right: .8rem;
+}
+
+.blue-key {
+  width: 3vw;
+  height: 2.25vh;
+  background-color: #A5DAFE;
+  margin-right: .8rem;
+}
+
+.pink-key {
+  width: 3vw;
+  height: 2.25vh;
+  background-color: #FEA5A5;
+  margin-right: .8rem;
+}
+
+.aqua-key {
+  width: 3vw;
+  height: 2.25vh;
+  background-color: #71E2E2;
+  margin-right: .8rem;
+}
+
+@media only screen and (min-width : 599px) {
+.chart-container {
+  width: 30%;
+  float: left;
+  margin-bottom: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.metric {
+  width: 30%;
+  height: 20vh;
+  margin: 1rem;
+  float: left;
+  border-radius: 10px;
+  /* border: 1px solid white; */
+}
+
+.overview {
+  width: 100%;
+  height: 25vh;
+  background-color: #7F95FC;
+}
+
+.metric-title {
+  color: white !important;
+  position: relative;
+  margin-left: 1rem;
+}
+
+}
+
+.metric-title {
+  color: #7F95FC;
+  position: relative;
+  text-align: left;
+  margin-left: 1rem;
+}
+
+.overview {
+  width: 100%;
+  height: 25vh;
 }
