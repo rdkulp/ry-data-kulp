@@ -133,14 +133,8 @@ return(
     />
   </VictoryChart>
   <ul class="key">
-    <li class="key-text"> 2020 </li>
+    <li class="key-text"> 🤹🏼‍ skills over time </li>
     <li class="purple-key"></li>
-    <li class="key-text"> 2021 </li>
-    <li class="blue-key"></li>
-    <li class="key-text"> 2022 </li>
-    <li class="pink-key"></li>
-    <li class="key-text"> 2023 </li>
-    <li class="aqua-key"></li>
   </ul>
 </>
 ); }
