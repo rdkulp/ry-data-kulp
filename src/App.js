@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import {Chart, Pie, Line} from './components/charts';
+import ActionLink from './components/button';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <div class="metric">
           <h2 class="metric-title">Bills due next 5 days</h2>
           <p class="kpi">Oat Milk Delivery - $276</p>
+            <ActionLink></ActionLink>
           </div>
           <div class="metric">
           <h2 class="metric-title">Outstanding Invoices</h2>

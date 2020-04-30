@@ -42,6 +42,28 @@
   }
 }*/
 
+.button {
+  width: 30px;
+  height: 10px;
+  padding: 10px;
+  background-color: white;
+  color: #7F95FC;
+  text-align: left;
+  margin-left: 1rem;
+  text-decoration: none;
+}
+
+.button:hover {
+  width: 30px;
+  height: 10px;
+  padding: 10px;
+  background-color: #A5DAFE;
+  color: white;
+  text-align: left;
+  margin-left: 1rem;
+  text-decoration: none;
+}
+
 .key {
   margin: auto;
   display: flex;
@@ -99,6 +121,7 @@
   margin: 1rem;
   float: left;
   border-radius: 10px;
+  text-align: left !important;
   /* border: 1px solid white; */
 }
 
@@ -106,6 +129,7 @@
   width: 100%;
   height: 25vh;
   background-color: #7F95FC;
+  padding-top: 3rem;
 }
 
 .metric-title {
@@ -113,6 +137,7 @@
   color: white !important;
   position: relative;
   margin-left: 1rem;
+  text-align: left !important;
 }
 
 .kpi {
@@ -121,6 +146,7 @@
   color: white !important;
   position: relative;
   margin-left: 1rem;
+  text-align: left !important;
 }
 
 .shaky-kpi {
@@ -128,29 +154,45 @@
   font-weight: bold;
   color: #FEA5A5;
   position: relative;
-  text-align: left;
+  text-align: left !important;
   margin-left: 1rem;
+  margin-top: -.5rem;
 }
 
 }
 
 .metric-title {
+  font-size: .8rem;
   color: #7F95FC;
   position: relative;
-  text-align: left;
+  text-align: center;
   margin-left: 1rem;
 }
 
 .kpi {
+  font-size: 1.9rem;
+  font-weight: bold;
+  margin-top: -.5rem;
   color: #7F95FC;
   position: relative;
-  text-align: left;
+  text-align: center;
   margin-left: 1rem;
+}
+
+.shaky-kpi {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #FEA5A5;
+  position: relative;
+  text-align: center;
+  margin-left: 1rem;
+  margin-top: -.5rem;
 }
 
 .overview {
   width: 100%;
   height: 25vh;
+  margin-bottom: 3rem;
 }
 
 span.emoji {
