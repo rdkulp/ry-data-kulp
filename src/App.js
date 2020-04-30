@@ -9,7 +9,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          A data exploration using React
+          A data viz exploration w/ React
         </p>
         <a
           className="App-link"
@@ -25,12 +25,15 @@ function App() {
         <div class="overview">
           <div class="metric">
           <h2 class="metric-title">Current Ratio</h2>
+          <p class="shaky-kpi">0.9 😬</p>
           </div>
           <div class="metric">
           <h2 class="metric-title">Bills due next 5 days</h2>
+          <p class="kpi">Oat Milk Delivery - $276</p>
           </div>
           <div class="metric">
           <h2 class="metric-title">Outstanding Invoices</h2>
+          <p class="kpi">$0</p>
           </div>
         </div>
         <div class="chart-container">

@@ -132,9 +132,9 @@ return(
       ]}
     />
   </VictoryChart>
-  <ul class="key">
-    <li class="key-text"> 🤹🏼‍ skills over time </li>
-    <li class="purple-key"></li>
+  <ul class="line-key">
+    <li class="key-text"> <span class="emoji">🤹</span> skills last 5 years </li>
+    <li class="purple-key-emoji"></li>
   </ul>
 </>
 ); }

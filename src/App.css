@@ -109,8 +109,26 @@
 }
 
 .metric-title {
+  font-size: .8rem;
   color: white !important;
   position: relative;
+  margin-left: 1rem;
+}
+
+.kpi {
+  font-size: 1.9rem;
+  font-weight: bold;
+  color: white !important;
+  position: relative;
+  margin-left: 1rem;
+}
+
+.shaky-kpi {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #FEA5A5;
+  position: relative;
+  text-align: left;
   margin-left: 1rem;
 }
 
@@ -123,7 +141,35 @@
   margin-left: 1rem;
 }
 
+.kpi {
+  color: #7F95FC;
+  position: relative;
+  text-align: left;
+  margin-left: 1rem;
+}
+
 .overview {
   width: 100%;
   height: 25vh;
+}
+
+span.emoji {
+  font-size: 30px;
+  vertical-align: middle;
+}
+
+.purple-key-emoji {
+  width: 3vw;
+  height: 2.25vh;
+  background-color: #7F95FC;
+  margin-right: .8rem;
+  margin-top: .8rem;
+}
+
+.line-key {
+  margin-top: -1rem;
+  display: flex;
+  list-style: none;
+  text-transform: uppercase;
+  text-align: center;
 }
